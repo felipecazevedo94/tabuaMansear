@@ -107,12 +107,12 @@ def main():
     hora_fim_default = time(16, 0)
     
     if tipo_filtro == "Ilha":
-        altura_max_default = 0.7
-        hora_inicio_default = time(8, 15)
+        altura_max_default = 0.72
+        hora_inicio_default = time(8, 10)
         hora_fim_default = time(14, 45)
     elif tipo_filtro == "Extremo":
-        altura_max_default = 0.6
-        hora_inicio_default = time(8, 30)
+        altura_max_default = 0.62
+        hora_inicio_default = time(8, 10)
         hora_fim_default = time(14, 45)
 
     col1, col2, col3 = st.columns(3)
